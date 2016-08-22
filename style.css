@@ -21,3 +21,20 @@
 	margin: 0 auto;
 	text-align: center
 }
+
+
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px sans-serif;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+input {
+	width: 50%;
+	background-color: black;
+}

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-	<title> Page</title>
+	<head>
+	  <title> Formulario </title>
 	<meta charset="UTF-8"> 
 	<!-- Latest compiled and minified CSS -->
 	<link href="bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -19,10 +18,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="bootstrap/bootstrap.min.js"></script>
-</head>
-
-<body>
-	<div class="row">
+	</head>
+	
+	<body>
+		<div class="row">
 		<img class="col-md-4 " id="logo" src="http://www.economiza.com/wp-content/uploads/telxius.jpg"></img>
 		<h3 class="col-md-8" >Oficina de Gestión de Proyectos </h3>
 	</div>
@@ -80,9 +79,19 @@
 			</div><!-- /.navbar-collapse -->
   		</div><!-- /.container-fluid -->
 	</nav>
-</div>
-
-
-</body>
-
-</html>
+	<h4> Solicitud de Renegociación de Renta </h4>
+		<form>
+		  <div class="form-group">
+		    <label for="email">Email address:</label>
+		    <input type="email" class="form-control inputForm" id="email">
+		  </div>
+		  <div class="form-group">
+		    <label for="pwd">Password:</label>
+		    <input type="password" class="form-control inputForm" id="pwd">
+		  </div>
+		  <div class="checkbox">
+		    <label><input type="checkbox"> Remember me</label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</body>

@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
  <head>
   <title>Prueba de PHP</title>
